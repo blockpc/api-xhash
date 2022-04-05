@@ -14,6 +14,5 @@ Se creo un recurso para devolve el objeto desde la base de datos.
 Se manejan algunas excepciones desde la clase `Handler`
 
 - GET /api/zip-codes/{zip_code} HTTP/1.1
-- Host: api-xhash.test
-- User-Agent: insomnia/2022.2.1
+- Host: api.blockpc.cl
 - Accept: application/json
