@@ -19,8 +19,7 @@ class CodeResource extends JsonResource
             'locality' => $this->resource->locality,
             'federal_entity' => $this->resource->federal_entity,
             'settlements' => $this->resource->settlements,
-            'municipality' => $this->resource->municipality,
-            'time' => microtime(true) - LARAVEL_START
+            'municipality' => $this->resource->municipality
         ];
     }
 }
